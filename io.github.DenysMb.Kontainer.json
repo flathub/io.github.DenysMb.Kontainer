@@ -39,6 +39,7 @@
             "config-opts": [
                 "-DCMAKE_BUILD_TYPE=Release"
             ],
+            "builddir": true,
             "sources": [
                 {
                     "type": "git",
