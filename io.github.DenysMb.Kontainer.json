@@ -22,8 +22,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/DenysMb/Kontainer.git",
-                    "tag": "1.0.2",
-                    "commit": "ba6d7302988a2aa2240e7094e576ab4aff85a2f4"
+                    "tag": "1.0.3",
+                    "commit": "7dc8376eda7bd293e9f5156adfc6ee293a8ddc0c"
                 }
             ]
         }
