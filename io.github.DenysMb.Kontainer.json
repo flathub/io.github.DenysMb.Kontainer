@@ -9,7 +9,10 @@
         "--socket=fallback-x11",
         "--socket=wayland",
         "--device=dri",
-        "--talk-name=org.freedesktop.Flatpak"
+        "--talk-name=org.freedesktop.Flatpak",
+        "--filesystem=~/.local/share/applications:rw",
+        "--filesystem=~/.local/share/flatpak/exports:ro",
+        "--filesystem=/var/lib/flatpak/exports:ro"
     ],
     "modules": [
         {
@@ -44,8 +47,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/DenysMb/Kontainer.git",
-                    "tag": "1.0.7",
-                    "commit": "a15ef11bee2707c9e0eb91002a967da9e3dc7f48"
+                    "tag": "1.1.0",
+                    "commit": "5cc219b2d6cdf55f7ed6e755046c26f84f4e38cc"
                 }
             ]
         }
